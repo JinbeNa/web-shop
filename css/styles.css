@@ -236,12 +236,10 @@ sup {
 }
 
 a {
-  color: #0d6efd;
-  text-decoration: underline;
+  color: #0a0a0a;
+  text-decoration: none;
 }
-a:hover {
-  color: #0a58ca;
-}
+
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -7622,6 +7620,14 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+
+.fs-8{
+  font-size: 0.5rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -11294,13 +11300,3 @@ textarea.form-control-lg {
   position: absolute;
 }
 
-/* My CSS */
-
-.login__btn{
-  border-right: 1px solid #000 !important;
-}
-.login__btn , .register__btn{
-  padding-top: 0;
-  padding-bottom: 0;
-  line-height: 0.2rem;
-}

@@ -1,6 +1,13 @@
-.login__btn{
-    border-right: 1px solid #000 !important;
-    border-radius: 0;
+.login__btn , .register__btn{
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 0.2rem;
+}
+
+.icon__sig-in{
+    padding-right: 65px;
+    margin: 0;
+    font-size: 30px;
 }
 
 .btn-cart{
@@ -39,4 +46,29 @@
 
 .btn-more{
     background-color: transparent;
+}
+
+.bg-f4{
+    background-color: #f4f4f4;
+}
+
+.inf-new{
+    display: block;
+    overflow-wrap: break-word;
+    width: 180px;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 1rem;
+}
+
+.line{
+    border-bottom: 1px solid #dadada;
+}
+
+.text-tile{
+    color: #b3adad;
+}
+
+.h5:hover{
+    opacity: 0.5;
 }
