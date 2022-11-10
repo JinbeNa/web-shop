@@ -2214,13 +2214,13 @@ progress {
 .form-control[type=file]:not(:disabled):not([readonly]) {
   cursor: pointer;
 }
-.form-control:focus {
+/* .form-control:focus {
   color: #212529;
   background-color: #fff;
   border-color: #86b7fe;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-}
+} */
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
 }
@@ -6489,6 +6489,11 @@ textarea.form-control-lg {
   color: #1a1e21;
 }
 
+.link-head{
+  color: #aaa9a9;
+}
+
+
 .ratio {
   position: relative;
   width: 100%;
@@ -6847,6 +6852,10 @@ textarea.form-control-lg {
 }
 
 .border {
+  border: 1px solid #dee2e6 !important;
+}
+
+.border-shadow{
   border: 1px solid #dee2e6 !important;
 }
 
@@ -7464,6 +7473,11 @@ textarea.form-control-lg {
 .px-5 {
   padding-right: 3rem !important;
   padding-left: 3rem !important;
+}
+
+.px-6{
+  padding-right: 4rem !important;
+  padding-left: 4rem !important;
 }
 
 .py-0 {

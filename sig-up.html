@@ -25,45 +25,44 @@
     <body class="d-flex flex-column">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light " style="height:5rem">
-                <div class="container px-4 ">
-                    <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse justify-content-sm-between" id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0 ms-lg-4 ">
-                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Trang chủ</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#!">Toàn bộ sản phẩm</a></li>
-                                    <li><hr class="dropdown-divider" /></li>
-                                    <li><a class="dropdown-item" href="#!">Thời trang Thu Đông</a></li>
-                                    <li><a class="dropdown-item" href="#!">Thời trang Hè</a></li>
-                                    <li><a class="dropdown-item" href="#!">Đồ cho bé</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                        <div class="seach-bar w-50 d-flex justify-content-end align-items-center">
-                            <input type="text" class="w-100 lh-lg rounded-3" placeholder="   Tìm kiếm sản phẩm">
-                            <i class="fa-solid fa-magnifying-glass position-absolute pe-xl-4"></i>
-                        </div>
-
-                        <form class="d-flex ">
-                            <div class="d-flex pe-2 btn-box jus">
-                                <a href="./html/sig-in.html">
-                                    <i class="fa-regular fa-user icon__sig-in"></i>
-                                </a>
-                            </div>
-                            <button class="btn btn-outline-dark" type="submit">
-                                <i class="bi-cart-fill me-1"></i>
-                                Cart
-                                <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-                            </button>
-                        </form>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom" style="height:5rem">
+                <div class="container px-4 d-flex justify-content-center">
+                    <a class="navbar-brand fw-bold  text-uppercase" href="./index.html">Start Bootstrap</a>
                     </div>
                 </div>
             </nav>
+            <div class="pt-3 box pb-4">
+                <div class="d-flex justify-content-start pb-5 box_sign-in">
+                    <a href="">
+                        <span class="text-uppercase text-decoration-underline link-head fs-7">uniqlo</span>
+                    </a>
+                    <div class="px-2">
+                        <span class="link-head">/</span>
+                    </div>
+                    <a href="">
+                        <span class="text-uppercase link-head fs-7">tạo tài khoản</span>
+                    </a>
+                </div>
+                <div class="box_sign-in">
+                    <div class="d-flex justify-content-between ">
+                        <h2 class="text-uppercase fw-bold fs-1">tạo một tài khoản</h2>
+                        <i class="fa-sharp fa-solid fa-lock"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="border-shadow box_sign-in p-3">
+                    <div class="">
+                        <div class="d-flex">
+                            <div>Chúng tôi sẽ gửi thư xác nhận đến địa chỉ email được liên kết với tài khoản của bạn. Hãy kiểm tra email đến từ chúng tôi.</div>
+                            <div class="d-flex p-0">Bắt buộc*</div>
+                        </div>
+                        <form action="">
+                        
+                        </form>
+                    </div>  
+                </div>
+            </div>
         </main>
     </body>
 </html>

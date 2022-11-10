@@ -25,57 +25,26 @@
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light " style="height:5rem">
-                <div class="container px-4 ">
-                    <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse justify-content-sm-between" id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0 ms-lg-4 ">
-                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Trang chủ</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#!">Toàn bộ sản phẩm</a></li>
-                                    <li><hr class="dropdown-divider" /></li>
-                                    <li><a class="dropdown-item" href="#!">Thời trang Thu Đông</a></li>
-                                    <li><a class="dropdown-item" href="#!">Thời trang Hè</a></li>
-                                    <li><a class="dropdown-item" href="#!">Đồ cho bé</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-
-                        <div class="seach-bar w-50 d-flex justify-content-end align-items-center">
-                            <input type="text" class="w-100 lh-lg rounded-3" placeholder="   Tìm kiếm sản phẩm">
-                            <i class="fa-solid fa-magnifying-glass position-absolute pe-xl-4"></i>
-                        </div>
-
-                        <form class="d-flex ">
-                            <div class="d-flex pe-2 btn-box jus">
-                                <a href="./html/sig-in.html">
-                                    <i class="fa-regular fa-user icon__sig-in"></i>
-                                </a>
-                            </div>
-                            <button class="btn btn-outline-dark" type="submit">
-                                <i class="bi-cart-fill me-1"></i>
-                                Cart
-                                <span class="badge bg-dark text-white ms-1 rounded-pill ">0</span>
-                            </button>
-                        </form>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom" style="height:5rem">
+                <div class="container px-4 d-flex justify-content-center ">
+                    <a class="navbar-brand text-uppercase fw-bolder" href="./index.html">Start Bootstrap</a>
                     </div>
                 </div>
             </nav>
             <!-- Body -->
-            <div class="my-4">
-                <div class="container border sign-in__box">
-                    <div>
+            <div class="my-5 w-100">
+                <div class="container border sign-in__box" >
+                    <div class="d-flex p-4">
                         <!-- Sign in  -->
-                        <div>
-                            <div>
-                                <h1>đăng nhập</h1>
-                                <p>Bắt buộc</p>
+                        <div class="" style="width: 1008px;">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <h1 class="text-uppercase fw-bolder fs-2 m-0">đăng nhập</h1>
+                                <div>
+                                    <span>Bắt <br> buộc *</span>
+                                </div>
                             </div>
                             <div>
-                                <div>
+                                <div class="d-flex justify-content-between mb-3">
                                     <span>Đăng nhập bằng địa chỉ email và mật khẩu của bạn.</span>
                                     <i class="fa-solid fa-circle-info"></i>
                                 </div>
@@ -83,45 +52,58 @@
                             <div>
                                 <form action="">
                                     <!--  -->
-                                    <div>
-                                        <div>
-                                            <label for="">
-                                                <span>Địa chỉ email</span>
-                                                <input type="email" placeholder="Nhập email hợp lệ">
-                                            </label>
-                                        </div>
+                                    <div class="form-group mb-3">
+                                        <label for="exampleInputEmail1" class="text-uppercase fw-bold fs-5 mb-2 ">địa chỉ email *</label>
+                                        <input type="email" class="form-control box-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nhập email của bạn">
                                     </div>
-                                    <!--  -->
-                                    <div>
-                                        <div>
-                                            <label for="">
-                                                <span>Mật khảu</span>
-                                                <input type="text">
-                                                <span>Mật khẩu phải có ít nhất 8 ký tự và có cả chữ cái và số.</span>
-                                            </label>
-                                        </div>
+                                    <div class="form-group mb-3">
+                                        <label for="exampleInputPassword1" class="text-uppercase fw-bold fs-5 mb-2">Mật khẩu *</label>
+                                        <input type="password" class="form-control box-input" id="exampleInputPassword1">
+                                        <small id="emailHelp" class="form-text text-muted">Mật khẩu phải có ít nhất 8 ký tự và có cả chữ cái và số.</small>
                                     </div>
-                                    <!--  -->
-                                    <div>
-                                        <div>
-                                            <span>
-                                                <input type="checkbox" name="" id="">
-                                                <label for="">
-                                                    <span>Hiện mật khẩu</span>
-                                                </label>
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label fs-6 pb-4" for="exampleCheck1">Hiện mật khẩu</label>
+                                    </div>
+                                    <div class="d-grid pb-5">
+                                        <a href="">
+                                            <span class="text-uppercase fw-bold fs-6 text-decoration-underline">
+                                                điều khoản sử dụng
                                             </span>
-                                        </div>
+                                        </a>
+                                        <a href="" class="text-uppercase fw-bold fs-6 text-decoration-underline">
+                                            <span>
+                                                chính sách bảo mật
+                                            </span>
+                                        </a>
                                     </div>
-                                    <div>
-
-                                    </div>
-                                    <div>
-
-                                    </div>
-                                    <div>
-                                        
+                                    <button type="submit" class="btn btn-dark rounded-0 ">
+                                        <span class="text-uppercase fw-bold fs-5 px-6">
+                                            Đăng nhập
+                                        </span>
+                                    </button>
+                                    <div class="d-grid pb-5">
+                                        <a href="">
+                                            <span class="text-uppercase fw-bold fs-6 text-decoration-underline">
+                                                Quên mật khẩu của bạn ?
+                                            </span>
+                                        </a>
                                     </div>
                                 </form>
+                            </div>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="" style="width: 1043px;"> 
+                            <h1 class="text-uppercase fw-bolder fs-2 m-0 pb-3">tạo một tài khoản</h1>
+                            <div class="pb-5">
+                                <span>Hãy tạo tài khoản ngay ! Bạn có thể nhận được các dịch vụ đặc biệt cho riêng bạn như kiểm tra lịch sử mua hàng và nhận phiếu giảm giá cho thành viên. Đăng ký miễn phí ngay hôm nay!</span>
+                            </div>
+                            <div>
+                                <a href="./sig-up.html">
+                                    <button class="btn btn-dark rounded-0">
+                                        <span class="text-uppercase fw-bold fs-5 px-6">Tạo tài khoản</span>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>
